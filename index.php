@@ -1,4 +1,5 @@
-<?php 
-    $a = env(BASEURL);
-    echo $a;
+<?php
+    session_start();
+    require_once "mvc/Bridge.php";
+    $myApp = new App();
 ?>
